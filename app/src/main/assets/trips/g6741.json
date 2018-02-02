@@ -1,0 +1,54 @@
+{
+  "stations": [
+    {
+      "no": 1,
+      "name": "北京西",
+      "arriveTime": "--",
+      "leaveTime": "10:15",
+      "stayMinutes": 0
+    },
+    {
+      "no": 2,
+      "name": "涿州东",
+      "arriveTime": "10:40",
+      "leaveTime": "10:42",
+      "stayMinutes": 2
+    },
+    {
+      "no": 3,
+      "name": "保定东",
+      "arriveTime": "11:03",
+      "leaveTime": "11:06",
+      "stayMinutes": 3
+    },
+    {
+      "no": 4,
+      "name": "石家庄",
+      "arriveTime": "11:42",
+      "leaveTime": "11:45",
+      "stayMinutes": 3
+    },
+    {
+      "no": 5,
+      "name": "高邑西",
+      "arriveTime": "12:00",
+      "leaveTime": "12:02",
+      "stayMinutes": 2
+    },
+    {
+      "no": 6,
+      "name": "邢台东",
+      "arriveTime": "12:20",
+      "leaveTime": "12:22",
+      "stayMinutes": 2
+    },
+    {
+      "no": 7,
+      "name": "邯郸东",
+      "arriveTime": "12:38",
+      "leaveTime": "--",
+      "stayMinutes": 0
+    }
+  ],
+  "trainNo": "G6741"
+}

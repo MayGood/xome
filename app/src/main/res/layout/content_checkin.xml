@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_checkin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.xxhx.xome.ui.disc.checkin.CheckinActivity"
+    tools:showIn="@layout/activity_checkin">
+    <LinearLayout
+        android:id="@+id/content"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+            <TextView
+                android:id="@+id/text_month_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="10dip"
+                android:paddingBottom="10dip"
+                android:text="6月"
+                android:textColor="@color/black"
+                style="@android:style/TextAppearance.Medium" />
+
+            <LinearLayout
+                android:id="@+id/day_names"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginEnd="2dip"
+                android:layout_marginStart="2dip"
+                android:gravity="center" >
+
+                <TextView android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="日" />
+
+                <TextView android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="一" />
+
+                <TextView android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="二" />
+
+                <TextView android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="三" />
+
+                <TextView android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="四" />
+
+                <TextView android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="五" />
+
+                <TextView android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="六" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:scaleType="fitXY"
+                android:gravity="fill_horizontal"
+                android:src="?android:attr/dividerHorizontal" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="270dp" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/remark"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:gravity="center_vertical"
+            android:text="remark"
+            android:textColor="#333333"
+            android:textSize="14sp"
+            android:background="@color/white"
+            android:visibility="gone"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:divider="@drawable/divider_linearlayout_vertical_padding_16dp"
+            android:showDividers="middle"
+            android:background="@color/white">
+            <Button
+                android:id="@+id/btn_overtime"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="12dp"
+                android:text="加班"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/text_checkin_info"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:hint="@string/checkin_empty"
+                android:textSize="14sp"
+                android:textColor="@color/black" />
+            <TextView
+                android:id="@+id/text_checkout_info"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:hint="@string/checkout_empty"
+                android:textSize="14sp"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:id="@+id/btn_add_overwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:text="打卡"
+            android:textColor="@color/gray"
+            android:textSize="12sp"
+            android:drawableTop="@drawable/ic_add_emotion_group"
+            android:clickable="true"
+            android:onClick="addCheckin"/>
+    </RelativeLayout>
+</RelativeLayout>

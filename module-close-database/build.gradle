@@ -1,0 +1,34 @@
+apply plugin: 'com.android.library'
+apply plugin: 'org.greenrobot.greendao'
+
+android {
+    compileSdkVersion 26
+
+
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+greendao {
+    schemaVersion 1
+    daoPackage 'com.xxhx.xome.data.close'
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'org.greenrobot:greendao:3.2.0'
+    implementation 'net.zetetic:android-database-sqlcipher:3.5.9@aar'
+}

@@ -1,0 +1,73 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:actionBarSize">@dimen/action_bar_height</item>
+        <item name="android:textColorLink">@color/colorPrimaryDark</item>
+        <item name="android:listDivider">@drawable/list_item_divider</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/commonBackground</item>
+
+        <!--&lt;!&ndash;enable window content transitions&ndash;&gt;-->
+        <!--<item name="android:windowContentTransitions">true</item>-->
+        <!--<item name="android:windowAllowEnterTransitionOverlap">true</item>-->
+        <!--<item name="android:windowAllowReturnTransitionOverlap">true</item>-->
+
+        <!--&lt;!&ndash;specify enter and exit transitions&ndash;&gt;-->
+        <!--<item name="android:windowEnterTransition">@android:transition/fade</item>-->
+        <!--<item name="android:windowExitTransition">@android:transition/fade</item>-->
+
+        <!--&lt;!&ndash;specify shared element transitions&ndash;&gt;-->
+        <!--<item name="android:windowSharedElementEnterTransition">@transition/change_image_transform</item>-->
+        <!--<item name="android:windowSharedElementExitTransition">@transition/change_image_transform</item>-->
+        <!--<item name="android:windowSharedElementReturnTransition">@transition/change_image_transform</item>-->
+        <!--<item name="android:windowSharedElementReenterTransition">@transition/change_image_transform</item>-->
+    </style>
+
+    <style name="AppTheme.Transition">
+        <!--enable window content transitions-->
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="AppTheme.Exercise" parent="AppTheme.Main">
+        <item name="android:statusBarColor">@color/darkExercise</item>
+        <item name="android:colorButtonNormal">@color/exercise</item>
+    </style>
+
+    <style name="AppTheme.Home" parent="AppTheme">
+        <item name="colorPrimary">@color/home</item>
+        <item name="colorPrimaryDark">@color/darkHome</item>
+        <item name="colorAccent">@color/home</item>
+        <item name="android:statusBarColor">@color/darkHome</item>
+        <item name="android:colorButtonNormal">@color/home</item>
+    </style>
+
+    <style name="AppTheme.Mess" parent="AppTheme">
+        <item name="colorPrimary">@color/mess</item>
+        <item name="colorPrimaryDark">@color/darkMess</item>
+        <item name="colorAccent">@color/mess</item>
+        <item name="android:statusBarColor">@color/darkMess</item>
+        <item name="android:colorButtonNormal">@color/mess</item>
+    </style>
+
+    <style name="AppTheme.Disc" parent="AppTheme">
+        <item name="colorPrimary">@color/disc</item>
+        <item name="colorPrimaryDark">@color/darkDisc</item>
+        <item name="colorAccent">@color/disc</item>
+        <item name="android:statusBarColor">@color/darkDisc</item>
+        <item name="android:colorButtonNormal">@color/disc</item>
+    </style>
+
+    <style name="AppTheme.Prof" parent="AppTheme">
+        <item name="colorPrimary">@color/prof</item>
+        <item name="colorPrimaryDark">@color/darkProf</item>
+        <item name="colorAccent">@color/prof</item>
+        <item name="android:statusBarColor">@color/darkProf</item>
+        <item name="android:colorButtonNormal">@color/prof</item>
+    </style>
+</resources>

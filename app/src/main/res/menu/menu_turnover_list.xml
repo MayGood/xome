@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.disc.wealth.MyWealthActivity">
+    <item
+        android:id="@+id/action_filter"
+        android:orderInCategory="100"
+        android:title="过滤"
+        android:icon="@drawable/ic_filter_list"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_filter_all"
+                android:title="全部"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+</menu>

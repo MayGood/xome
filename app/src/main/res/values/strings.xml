@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">嘿v2</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="home">小黑屋</string>
+    <string name="mess">收信箱</string>
+    <string name="disc">新发现</string>
+    <string name="prof">关于我</string>
+
+    <string name="badge_more">···</string>
+    <string name="edit">编辑</string>
+    <string name="done">完成</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="today">今天</string>
+
+    <!--Error Tips-->
+    <string name="error_unknown">未知错误</string>
+    <string name="developing">开发中...</string>
+
+    <!--Home Fragment-->
+    <string name="signin_tip">点此登录微博</string>
+    <string name="load_more">加载更多</string>
+    <string name="loading">正在加载...</string>
+    <string name="tip_no_more">只有这么多了</string>
+    <string name="title_activity_status">微博正文</string>
+    <string name="repost">转发</string>
+    <string name="comment">评论</string>
+    <string name="like">赞</string>
+
+    <!--Disc Fragment-->
+    <string name="title_drawingboard">手绘板</string>
+    <string name="title_aa">AA账单</string>
+    <string name="title_clipboard">Clipboard++</string>
+    <string name="title_todolist">待办事项</string>
+    <string name="title_cookbook">菜谱(暂定&amp;延后)</string>
+    <string name="title_trip">行程</string>
+    <string name="title_exercise">运动</string>
+    <string name="title_checkin">打卡记录</string>
+    <string name="title_wealth">财富</string>
+    <string name="title_password">密码管理</string>
+    <string name="title_note">云笔记</string>
+
+    <string name="title_activity_my_wealth">我的财富</string>
+    <string name="title_activity_wealth_account_detail">账户详情</string>
+    <string name="title_activity_wealth_change">WealthChangeActivity</string>
+    <string name="title_activity_new_wealth_account">NewWealthAccountActivity</string>
+    <string name="account_overview">总览</string>
+    <string name="new_account">新增卡/账户</string>
+    <string name="debt">借款详情</string>
+    <string name="title_account_info">卡/账户信息</string>
+    <string name="label_bill_repayment_day">账单日/还款日</string>
+    <string name="label_expire_date">有效期</string>
+    <string name="wealth_in">转入</string>
+    <string name="wealth_out">转出</string>
+    <string name="debit">借记卡</string>
+    <string name="credit">贷记卡</string>
+    <string name="internet_finance">理财户</string>
+    <string name="title_gain_chart">最近一周收益曲线图</string>
+    <string name="title_recent_turnover">最近几笔交易流水</string>
+    <string name="show_all_turnovers">查看所有交易流水</string>
+    <string name="added_time_in_days">%1$d天前 添加</string>
+    <string name="added_time_in_date">%1$s 添加</string>
+    <string name="days_to_deadline">%1$d天后 逾期</string>
+    <string name="bill_repayment_day_1">%1$02d日/%2$02d日</string>
+    <string name="bill_repayment_day_2">%1$02d日/次月%2$02d日</string>
+
+    <string name="checkin_notice">上班打卡时间：%1$s</string>
+    <string name="checkout_notice">下班打卡时间：%1$s</string>
+    <string name="checkin_empty">没有上班打卡记录</string>
+    <string name="checkout_empty">没有下班打卡记录</string>
+    <string name="checkin_empty_fornow">暂无上班打卡记录</string>
+    <string name="checkout_empty_fornow">暂无下班打卡记录</string>
+
+    <string name="no_remark">没有备注信息</string>
+
+    <!--Prof Fragment-->
+    <string name="label_statuses">微博</string>
+    <string name="label_friends">关注</string>
+    <string name="label_followers">粉丝</string>
+    <string name="title_collection">收藏</string>
+    <string name="title_backup">备份</string>
+    <string name="title_emoticon_manage">表情管理</string>
+    <string name="title_message_manage">消息管理</string>
+    <string name="title_function_manage">功能管理</string>
+    <string name="title_settings">设置</string>
+    <string name="title_activity_turnover_list">交易流水</string>
+    <string name="title_activity_turnover_edit">交易编辑</string>
+    <string name="title_activity_debt_list">我的债务</string>
+    <string name="title_activity_new_debt_change">债务变更</string>
+    <string name="title_activity_my_trip">我的行程</string>
+    <string name="title_activity_new_trip">添加行程</string>
+    <string name="title_activity_history_trip">历史行程</string>
+    <string name="title_activity_wealth_overview">总资产</string>
+    <string name="title_activity_new_todo">新的待办</string>
+
+    <string name="test">12\'43\"</string>
+    <string name="title_activity_offline_map">离线地图管理</string>
+</resources>

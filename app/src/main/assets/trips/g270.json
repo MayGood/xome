@@ -1,0 +1,103 @@
+{
+  "stations": [
+    {
+      "no": 1,
+      "name": "黄山北",
+      "arriveTime": "--",
+      "leaveTime": "14:38",
+      "stayMinutes": 0
+    },
+    {
+      "no": 2,
+      "name": "绩溪北",
+      "arriveTime": "14:52",
+      "leaveTime": "14:54",
+      "stayMinutes": 2
+    },
+    {
+      "no": 3,
+      "name": "旌德",
+      "arriveTime": "15:05",
+      "leaveTime": "15:07",
+      "stayMinutes": 2
+    },
+    {
+      "no": 4,
+      "name": "泾县",
+      "arriveTime": "15:21",
+      "leaveTime": "15:23",
+      "stayMinutes": 2
+    },
+    {
+      "no": 5,
+      "name": "南陵",
+      "arriveTime": "15:33",
+      "leaveTime": "15:35",
+      "stayMinutes": 2
+    },
+    {
+      "no": 6,
+      "name": "无为",
+      "arriveTime": "15:54",
+      "leaveTime": "15:56",
+      "stayMinutes": 2
+    },
+    {
+      "no": 7,
+      "name": "合肥南",
+      "arriveTime": "16:26",
+      "leaveTime": "16:31",
+      "stayMinutes": 5
+    },
+    {
+      "no": 8,
+      "name": "淮南东",
+      "arriveTime": "17:09",
+      "leaveTime": "17:11",
+      "stayMinutes": 2
+    },
+    {
+      "no": 9,
+      "name": "徐州东",
+      "arriveTime": "18:00",
+      "leaveTime": "18:05",
+      "stayMinutes": 5
+    },
+    {
+      "no": 10,
+      "name": "枣庄",
+      "arriveTime": "18:23",
+      "leaveTime": "18:25",
+      "stayMinutes": 2
+    },
+    {
+      "no": 11,
+      "name": "泰安",
+      "arriveTime": "19:03",
+      "leaveTime": "19:05",
+      "stayMinutes": 2
+    },
+    {
+      "no": 12,
+      "name": "济南西",
+      "arriveTime": "19:22",
+      "leaveTime": "19:27",
+      "stayMinutes": 5
+    },
+    {
+      "no": 13,
+      "name": "沧州西",
+      "arriveTime": "20:13",
+      "leaveTime": "20:15",
+      "stayMinutes": 2
+    },
+    {
+      "no": 14,
+      "name": "北京南",
+      "arriveTime": "21:06",
+      "leaveTime": "--",
+      "stayMinutes": 0
+    }
+  ],
+  "trainNo": "G270"
+}

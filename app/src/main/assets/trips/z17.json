@@ -1,0 +1,19 @@
+{
+  "stations": [
+    {
+      "no": 1,
+      "name": "北京",
+      "arriveTime": "--",
+      "leaveTime": "21:15",
+      "stayMinutes": 0
+    },
+    {
+      "no": 2,
+      "name": "哈尔滨西",
+      "arriveTime": "07:12",
+      "leaveTime": "--",
+      "stayMinutes": 0
+    }
+  ],
+  "trainNo": "Z17"
+}

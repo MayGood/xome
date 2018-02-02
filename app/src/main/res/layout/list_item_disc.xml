@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:paddingLeft="@dimen/list_item_padding"
+    android:paddingRight="@dimen/list_item_padding"
+    android:gravity="center_vertical"
+    android:background="?attr/selectableItemBackground">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_drawingboard"
+            android:drawablePadding="12dp"
+            android:text="@string/title_drawingboard"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="12sp"
+            android:visibility="gone"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="40dp"
+        android:layout_height="40dp">
+        <com.xxhx.xome.view.BadgeView
+            android:id="@+id/badge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="77"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+</LinearLayout>

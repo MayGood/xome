@@ -1,0 +1,40 @@
+{
+  "stations": [
+    {
+      "no": 1,
+      "name": "上海",
+      "arriveTime": "--",
+      "leaveTime": "20:00",
+      "stayMinutes": 0
+    },
+    {
+      "no": 2,
+      "name": "苏州",
+      "arriveTime": "20:25",
+      "leaveTime": "20:27",
+      "stayMinutes": 2
+    },
+    {
+      "no": 3,
+      "name": "无锡",
+      "arriveTime": "20:42",
+      "leaveTime": "20:44",
+      "stayMinutes": 2
+    },
+    {
+      "no": 4,
+      "name": "常州",
+      "arriveTime": "20:58",
+      "leaveTime": "21:00",
+      "stayMinutes": 2
+    },
+    {
+      "no": 5,
+      "name": "南京",
+      "arriveTime": "21:39",
+      "leaveTime": "--",
+      "stayMinutes": 0
+    }
+  ],
+  "trainNo": "G7028"
+}

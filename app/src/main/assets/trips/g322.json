@@ -1,0 +1,180 @@
+{
+  "stations": [
+    {
+      "no": 1,
+      "name": "厦门北",
+      "arriveTime": "--",
+      "leaveTime": "07:19",
+      "stayMinutes": 0
+    },
+    {
+      "no": 2,
+      "name": "晋江",
+      "arriveTime": "07:37",
+      "leaveTime": "07:39",
+      "stayMinutes": 2
+    },
+    {
+      "no": 3,
+      "name": "仙游",
+      "arriveTime": "08:04",
+      "leaveTime": "08:08",
+      "stayMinutes": 4
+    },
+    {
+      "no": 4,
+      "name": "莆田",
+      "arriveTime": "08:19",
+      "leaveTime": "08:21",
+      "stayMinutes": 2
+    },
+    {
+      "no": 5,
+      "name": "福清",
+      "arriveTime": "08:40",
+      "leaveTime": "08:43",
+      "stayMinutes": 3
+    },
+    {
+      "no": 6,
+      "name": "福州",
+      "arriveTime": "09:10",
+      "leaveTime": "09:14",
+      "stayMinutes": 4
+    },
+    {
+      "no": 7,
+      "name": "闽清北",
+      "arriveTime": "09:33",
+      "leaveTime": "09:35",
+      "stayMinutes": 2
+    },
+    {
+      "no": 8,
+      "name": "武夷山东",
+      "arriveTime": "10:17",
+      "leaveTime": "10:19",
+      "stayMinutes": 2
+    },
+    {
+      "no": 9,
+      "name": "武夷山北",
+      "arriveTime": "10:31",
+      "leaveTime": "10:33",
+      "stayMinutes": 2
+    },
+    {
+      "no": 10,
+      "name": "上饶",
+      "arriveTime": "10:55",
+      "leaveTime": "10:58",
+      "stayMinutes": 3
+    },
+    {
+      "no": 11,
+      "name": "婺源",
+      "arriveTime": "11:22",
+      "leaveTime": "11:24",
+      "stayMinutes": 2
+    },
+    {
+      "no": 12,
+      "name": "黄山北",
+      "arriveTime": "11:45",
+      "leaveTime": "11:49",
+      "stayMinutes": 4
+    },
+    {
+      "no": 13,
+      "name": "绩溪北",
+      "arriveTime": "12:03",
+      "leaveTime": "12:05",
+      "stayMinutes": 2
+    },
+    {
+      "no": 14,
+      "name": "旌德",
+      "arriveTime": "12:16",
+      "leaveTime": "12:18",
+      "stayMinutes": 2
+    },
+    {
+      "no": 15,
+      "name": "铜陵北",
+      "arriveTime": "12:44",
+      "leaveTime": "12:46",
+      "stayMinutes": 2
+    },
+    {
+      "no": 16,
+      "name": "无为",
+      "arriveTime": "12:59",
+      "leaveTime": "13:05",
+      "stayMinutes": 6
+    },
+    {
+      "no": 17,
+      "name": "合肥南",
+      "arriveTime": "13:35",
+      "leaveTime": "13:47",
+      "stayMinutes": 12
+    },
+    {
+      "no": 18,
+      "name": "宿州东",
+      "arriveTime": "14:55",
+      "leaveTime": "14:57",
+      "stayMinutes": 2
+    },
+    {
+      "no": 19,
+      "name": "徐州东",
+      "arriveTime": "15:16",
+      "leaveTime": "15:18",
+      "stayMinutes": 2
+    },
+    {
+      "no": 20,
+      "name": "枣庄",
+      "arriveTime": "15:36",
+      "leaveTime": "15:38",
+      "stayMinutes": 2
+    },
+    {
+      "no": 21,
+      "name": "曲阜东",
+      "arriveTime": "16:02",
+      "leaveTime": "16:04",
+      "stayMinutes": 2
+    },
+    {
+      "no": 22,
+      "name": "济南西",
+      "arriveTime": "16:36",
+      "leaveTime": "16:38",
+      "stayMinutes": 2
+    },
+    {
+      "no": 23,
+      "name": "德州东",
+      "arriveTime": "17:02",
+      "leaveTime": "17:04",
+      "stayMinutes": 2
+    },
+    {
+      "no": 24,
+      "name": "沧州西",
+      "arriveTime": "17:30",
+      "leaveTime": "17:34",
+      "stayMinutes": 4
+    },
+    {
+      "no": 25,
+      "name": "北京南",
+      "arriveTime": "18:26",
+      "leaveTime": "--",
+      "stayMinutes": 0
+    }
+  ],
+  "trainNo": "G322"
+}

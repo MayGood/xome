@@ -1,0 +1,67 @@
+<resources>
+
+    <style name="SplashTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarSize">@dimen/action_bar_height</item>
+        <item name="android:textColorLink">@color/colorPrimaryDark</item>
+        <item name="android:listDivider">@drawable/list_item_divider</item>
+        <item name="android:colorBackground">@color/commonBackground</item>
+    </style>
+
+    <style name="AppTheme.Main">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/home</item>
+        <item name="colorButtonNormal">@color/home</item>
+    </style>
+
+    <style name="AppTheme.Exercise" parent="AppTheme.Main">
+        <item name="colorButtonNormal">@color/exercise</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="PopupMenuStyle">
+        <item name="android:windowEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <style name="AppTheme.Home" parent="AppTheme">
+        <item name="colorPrimary">@color/home</item>
+        <item name="colorPrimaryDark">@color/darkHome</item>
+        <item name="colorAccent">@color/home</item>
+        <item name="colorButtonNormal">@color/home</item>
+    </style>
+
+    <style name="AppTheme.Mess" parent="AppTheme">
+        <item name="colorPrimary">@color/mess</item>
+        <item name="colorPrimaryDark">@color/darkMess</item>
+        <item name="colorAccent">@color/mess</item>
+        <item name="colorButtonNormal">@color/mess</item>
+    </style>
+
+    <style name="AppTheme.Disc" parent="AppTheme">
+        <item name="colorPrimary">@color/disc</item>
+        <item name="colorPrimaryDark">@color/darkDisc</item>
+        <item name="colorAccent">@color/disc</item>
+        <item name="colorButtonNormal">@color/disc</item>
+    </style>
+
+    <style name="AppTheme.Prof" parent="AppTheme">
+        <item name="colorPrimary">@color/prof</item>
+        <item name="colorPrimaryDark">@color/darkProf</item>
+        <item name="colorAccent">@color/prof</item>
+        <item name="colorButtonNormal">@color/prof</item>
+    </style>
+
+</resources>

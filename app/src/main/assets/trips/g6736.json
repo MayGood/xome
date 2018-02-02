@@ -1,0 +1,40 @@
+{
+  "stations": [
+    {
+      "no": 1,
+      "name": "邯郸东",
+      "arriveTime": "--",
+      "leaveTime": "16:50",
+      "stayMinutes": 0
+    },
+    {
+      "no": 2,
+      "name": "邢台东",
+      "arriveTime": "17:06",
+      "leaveTime": "17:13",
+      "stayMinutes": 7
+    },
+    {
+      "no": 3,
+      "name": "石家庄",
+      "arriveTime": "17:41",
+      "leaveTime": "17:43",
+      "stayMinutes": 2
+    },
+    {
+      "no": 4,
+      "name": "正定机场",
+      "arriveTime": "17:57",
+      "leaveTime": "17:59",
+      "stayMinutes": 2
+    },
+    {
+      "no": 5,
+      "name": "北京西",
+      "arriveTime": "19:02",
+      "leaveTime": "--",
+      "stayMinutes": 0
+    }
+  ],
+  "trainNo": "G6736"
+}

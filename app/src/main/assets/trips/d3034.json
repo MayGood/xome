@@ -1,0 +1,110 @@
+{
+  "stations": [
+    {
+      "no": 1,
+      "name": "汉口",
+      "arriveTime": "--",
+      "leaveTime": "08:43",
+      "stayMinutes": 0
+    },
+    {
+      "no": 2,
+      "name": "红安西",
+      "arriveTime": "09:16",
+      "leaveTime": "09:18",
+      "stayMinutes": 2
+    },
+    {
+      "no": 3,
+      "name": "麻城北",
+      "arriveTime": "09:34",
+      "leaveTime": "09:36",
+      "stayMinutes": 2
+    },
+    {
+      "no": 4,
+      "name": "金寨",
+      "arriveTime": "10:15",
+      "leaveTime": "10:17",
+      "stayMinutes": 2
+    },
+    {
+      "no": 5,
+      "name": "六安",
+      "arriveTime": "10:37",
+      "leaveTime": "10:39",
+      "stayMinutes": 2
+    },
+    {
+      "no": 6,
+      "name": "合肥南",
+      "arriveTime": "11:08",
+      "leaveTime": "11:12",
+      "stayMinutes": 4
+    },
+    {
+      "no": 7,
+      "name": "南京南",
+      "arriveTime": "12:10",
+      "leaveTime": "12:13",
+      "stayMinutes": 3
+    },
+    {
+      "no": 8,
+      "name": "镇江",
+      "arriveTime": "12:42",
+      "leaveTime": "12:44",
+      "stayMinutes": 2
+    },
+    {
+      "no": 9,
+      "name": "丹徒",
+      "arriveTime": "12:53",
+      "leaveTime": "12:55",
+      "stayMinutes": 2
+    },
+    {
+      "no": 10,
+      "name": "丹阳",
+      "arriveTime": "13:03",
+      "leaveTime": "13:05",
+      "stayMinutes": 2
+    },
+    {
+      "no": 11,
+      "name": "常州",
+      "arriveTime": "13:20",
+      "leaveTime": "13:26",
+      "stayMinutes": 6
+    },
+    {
+      "no": 12,
+      "name": "惠山",
+      "arriveTime": "13:37",
+      "leaveTime": "13:53",
+      "stayMinutes": 16
+    },
+    {
+      "no": 13,
+      "name": "无锡",
+      "arriveTime": "14:00",
+      "leaveTime": "14:02",
+      "stayMinutes": 2
+    },
+    {
+      "no": 14,
+      "name": "苏州",
+      "arriveTime": "14:18",
+      "leaveTime": "14:20",
+      "stayMinutes": 2
+    },
+    {
+      "no": 15,
+      "name": "上海虹桥",
+      "arriveTime": "14:50",
+      "leaveTime": "--",
+      "stayMinutes": 0
+    }
+  ],
+  "trainNo": "D3034"
+}

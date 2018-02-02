@@ -1,0 +1,110 @@
+{
+  "stations": [
+    {
+      "no": 1,
+      "name": "宝鸡南",
+      "arriveTime": "--",
+      "leaveTime": "16:00",
+      "stayMinutes": 0
+    },
+    {
+      "no": 2,
+      "name": "岐山",
+      "arriveTime": "16:13",
+      "leaveTime": "16:15",
+      "stayMinutes": 2
+    },
+    {
+      "no": 3,
+      "name": "杨陵南",
+      "arriveTime": "16:29",
+      "leaveTime": "16:31",
+      "stayMinutes": 2
+    },
+    {
+      "no": 4,
+      "name": "咸阳秦都",
+      "arriveTime": "16:50",
+      "leaveTime": "16:52",
+      "stayMinutes": 2
+    },
+    {
+      "no": 5,
+      "name": "西安北",
+      "arriveTime": "17:05",
+      "leaveTime": "17:20",
+      "stayMinutes": 15
+    },
+    {
+      "no": 6,
+      "name": "渭南北",
+      "arriveTime": "17:37",
+      "leaveTime": "17:47",
+      "stayMinutes": 10
+    },
+    {
+      "no": 7,
+      "name": "华山北",
+      "arriveTime": "18:06",
+      "leaveTime": "18:08",
+      "stayMinutes": 2
+    },
+    {
+      "no": 8,
+      "name": "三门峡南",
+      "arriveTime": "18:36",
+      "leaveTime": "18:38",
+      "stayMinutes": 2
+    },
+    {
+      "no": 9,
+      "name": "洛阳龙门",
+      "arriveTime": "19:09",
+      "leaveTime": "19:11",
+      "stayMinutes": 2
+    },
+    {
+      "no": 10,
+      "name": "郑州东",
+      "arriveTime": "19:50",
+      "leaveTime": "19:56",
+      "stayMinutes": 6
+    },
+    {
+      "no": 11,
+      "name": "鹤壁东",
+      "arriveTime": "20:27",
+      "leaveTime": "20:30",
+      "stayMinutes": 3
+    },
+    {
+      "no": 12,
+      "name": "邯郸东",
+      "arriveTime": "20:58",
+      "leaveTime": "21:00",
+      "stayMinutes": 2
+    },
+    {
+      "no": 13,
+      "name": "石家庄",
+      "arriveTime": "21:39",
+      "leaveTime": "21:41",
+      "stayMinutes": 2
+    },
+    {
+      "no": 14,
+      "name": "保定东",
+      "arriveTime": "22:17",
+      "leaveTime": "22:19",
+      "stayMinutes": 2
+    },
+    {
+      "no": 15,
+      "name": "北京西",
+      "arriveTime": "23:00",
+      "leaveTime": "--",
+      "stayMinutes": 0
+    }
+  ],
+  "trainNo": "G674"
+}

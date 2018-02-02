@@ -1,0 +1,61 @@
+{
+  "stations": [
+    {
+      "no": 1,
+      "name": "北京西",
+      "arriveTime": "--",
+      "leaveTime": "19:16",
+      "stayMinutes": 0
+    },
+    {
+      "no": 2,
+      "name": "正定机场",
+      "arriveTime": "20:19",
+      "leaveTime": "20:21",
+      "stayMinutes": 2
+    },
+    {
+      "no": 3,
+      "name": "石家庄",
+      "arriveTime": "20:35",
+      "leaveTime": "20:38",
+      "stayMinutes": 3
+    },
+    {
+      "no": 4,
+      "name": "邢台东",
+      "arriveTime": "21:06",
+      "leaveTime": "21:08",
+      "stayMinutes": 2
+    },
+    {
+      "no": 5,
+      "name": "邯郸东",
+      "arriveTime": "21:24",
+      "leaveTime": "21:26",
+      "stayMinutes": 2
+    },
+    {
+      "no": 6,
+      "name": "鹤壁东",
+      "arriveTime": "21:53",
+      "leaveTime": "22:00",
+      "stayMinutes": 7
+    },
+    {
+      "no": 7,
+      "name": "新乡东",
+      "arriveTime": "22:16",
+      "leaveTime": "22:18",
+      "stayMinutes": 2
+    },
+    {
+      "no": 8,
+      "name": "郑州东",
+      "arriveTime": "22:39",
+      "leaveTime": "--",
+      "stayMinutes": 0
+    }
+  ],
+  "trainNo": "G567"
+}

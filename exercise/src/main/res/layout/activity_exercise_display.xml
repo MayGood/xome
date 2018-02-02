@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_exercise_display"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xxhx.exercise.ExerciseDisplayActivity">
+    <com.amap.api.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.xxhx.exercise.view.CustomScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:id="@+id/place_holder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <include
+                layout="@layout/layout_exercise_overview"/>
+            <include
+                layout="@layout/layout_exercise_milecost"/>
+            <include
+                layout="@layout/layout_exercise_stepcount"/>
+        </LinearLayout>
+    </com.xxhx.exercise.view.CustomScrollView>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"
+        android:paddingLeft="14dp"
+        android:gravity="center_vertical"
+        android:hint="@string/title_recent_turnover"
+        android:textSize="10sp"
+        android:textColor="#999"/>
+    <LinearLayout
+        android:id="@+id/turnovers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/list_item_divider"
+        android:showDividers="middle|end"
+        android:orientation="vertical"
+        android:background="@color/white">
+    </LinearLayout>
+    <com.xxhx.xome.view.material.RippleTextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="@string/show_all_turnovers"
+        android:textSize="16sp"
+        android:textColor="#666"
+        android:background="@color/white"
+        android:onClick="showAllTurnovers"/>
+</LinearLayout>

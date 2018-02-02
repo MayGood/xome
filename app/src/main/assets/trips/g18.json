@@ -1,0 +1,33 @@
+{
+  "stations": [
+    {
+      "no": 1,
+      "name": "上海虹桥",
+      "arriveTime": "--",
+      "leaveTime": "15:00",
+      "stayMinutes": 0
+    },
+    {
+      "no": 2,
+      "name": "南京南",
+      "arriveTime": "16:00",
+      "leaveTime": "16:02",
+      "stayMinutes": 2
+    },
+    {
+      "no": 3,
+      "name": "济南西",
+      "arriveTime": "17:59",
+      "leaveTime": "18:01",
+      "stayMinutes": 2
+    },
+    {
+      "no": 4,
+      "name": "北京南",
+      "arriveTime": "19:28",
+      "leaveTime": "--",
+      "stayMinutes": 0
+    }
+  ],
+  "trainNo": "G18"
+}

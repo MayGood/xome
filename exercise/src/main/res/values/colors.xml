@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00A4EF</color>
+    <!--<color name="colorPrimaryDark">#00A4EF</color>-->
+    <color name="colorPrimaryDark">#0091DA</color>
+    <color name="colorAccent">#039be5</color>
+    
+    <color name="home">#FF00A4EF</color>
+    <color name="darkHome">#FF0091DA</color>
+    <color name="mess">#FFF25022</color>
+    <color name="darkMess">#FFCE471D</color>
+    <color name="disc">#FFFFB900</color>
+    <color name="darkDisc">#FFD89E00</color>
+    <color name="prof">#FF7FBA00</color>
+    <color name="darkProf">#FF6EA100</color>
+    <color name="exercise">#76c2af</color>
+    <color name="darkExercise">#5d998a</color>
+    <color name="lightExercise">#9cffe6</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="gray">#FFBEBEBE</color>
+    <color name="lightGray">#FFD3D3D3</color>
+    <color name="darkGray">#FF777777</color>
+    <color name="ddarkGray">#FF555555</color>
+
+    <color name="commonBackground">#FFF0F0F0</color>
+    <color name="splashBackground">#000000</color>
+    <color name="mainBottomBackground">#FFFAFAFA</color>
+    <color name="mainBottomBadge">#FFE43943</color>
+    
+    <color name="positiveWealth">#FFC7000B</color>
+    <color name="negativeWealth">#FF008000</color>
+</resources>

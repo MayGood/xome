@@ -1,0 +1,124 @@
+{
+  "stations": [
+    {
+      "no": 1,
+      "name": "北京南",
+      "arriveTime": "--",
+      "leaveTime": "14:41",
+      "stayMinutes": 0
+    },
+    {
+      "no": 2,
+      "name": "廊坊",
+      "arriveTime": "15:02",
+      "leaveTime": "15:09",
+      "stayMinutes": 7
+    },
+    {
+      "no": 3,
+      "name": "天津南",
+      "arriveTime": "15:27",
+      "leaveTime": "15:33",
+      "stayMinutes": 6
+    },
+    {
+      "no": 4,
+      "name": "沧州西",
+      "arriveTime": "15:55",
+      "leaveTime": "15:59",
+      "stayMinutes": 4
+    },
+    {
+      "no": 5,
+      "name": "济南西",
+      "arriveTime": "16:46",
+      "leaveTime": "16:52",
+      "stayMinutes": 6
+    },
+    {
+      "no": 6,
+      "name": "滕州东",
+      "arriveTime": "17:35",
+      "leaveTime": "17:39",
+      "stayMinutes": 4
+    },
+    {
+      "no": 7,
+      "name": "徐州东",
+      "arriveTime": "18:04",
+      "leaveTime": "18:06",
+      "stayMinutes": 2
+    },
+    {
+      "no": 8,
+      "name": "蚌埠南",
+      "arriveTime": "18:43",
+      "leaveTime": "18:45",
+      "stayMinutes": 2
+    },
+    {
+      "no": 9,
+      "name": "淮南东",
+      "arriveTime": "19:01",
+      "leaveTime": "19:03",
+      "stayMinutes": 2
+    },
+    {
+      "no": 10,
+      "name": "水家湖",
+      "arriveTime": "19:12",
+      "leaveTime": "19:14",
+      "stayMinutes": 2
+    },
+    {
+      "no": 11,
+      "name": "合肥南",
+      "arriveTime": "19:48",
+      "leaveTime": "19:52",
+      "stayMinutes": 4
+    },
+    {
+      "no": 12,
+      "name": "巢湖东",
+      "arriveTime": "20:13",
+      "leaveTime": "20:15",
+      "stayMinutes": 2
+    },
+    {
+      "no": 13,
+      "name": "无为",
+      "arriveTime": "20:28",
+      "leaveTime": "20:30",
+      "stayMinutes": 2
+    },
+    {
+      "no": 14,
+      "name": "铜陵北",
+      "arriveTime": "20:42",
+      "leaveTime": "20:44",
+      "stayMinutes": 2
+    },
+    {
+      "no": 15,
+      "name": "铜陵",
+      "arriveTime": "20:58",
+      "leaveTime": "21:00",
+      "stayMinutes": 2
+    },
+    {
+      "no": 16,
+      "name": "池州",
+      "arriveTime": "21:20",
+      "leaveTime": "21:22",
+      "stayMinutes": 2
+    },
+    {
+      "no": 17,
+      "name": "安庆",
+      "arriveTime": "21:41",
+      "leaveTime": "--",
+      "stayMinutes": 0
+    }
+  ],
+  "trainNo": "G161"
+}

@@ -1,0 +1,54 @@
+{
+  "stations": [
+    {
+      "no": 1,
+      "name": "安庆",
+      "arriveTime": "--",
+      "leaveTime": "08:57",
+      "stayMinutes": 0
+    },
+    {
+      "no": 2,
+      "name": "池州",
+      "arriveTime": "09:16",
+      "leaveTime": "09:18",
+      "stayMinutes": 2
+    },
+    {
+      "no": 3,
+      "name": "铜陵",
+      "arriveTime": "09:38",
+      "leaveTime": "09:40",
+      "stayMinutes": 2
+    },
+    {
+      "no": 4,
+      "name": "铜陵北",
+      "arriveTime": "09:54",
+      "leaveTime": "09:56",
+      "stayMinutes": 2
+    },
+    {
+      "no": 5,
+      "name": "无为",
+      "arriveTime": "10:08",
+      "leaveTime": "10:10",
+      "stayMinutes": 2
+    },
+    {
+      "no": 6,
+      "name": "长临河",
+      "arriveTime": "10:35",
+      "leaveTime": "10:37",
+      "stayMinutes": 2
+    },
+    {
+      "no": 7,
+      "name": "合肥南",
+      "arriveTime": "10:48",
+      "leaveTime": "--",
+      "stayMinutes": 0
+    }
+  ],
+  "trainNo": "D5654"
+}

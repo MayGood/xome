@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+	        android:id="@+id/text_month_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:paddingTop="10dip"
+	        android:paddingBottom="10dip"
+	        android:text="6月"
+	        android:textColor="@color/black"
+	        style="@android:style/TextAppearance.Medium" />
+	
+	    <LinearLayout
+	        android:id="@+id/day_names"
+	        android:orientation="horizontal"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="6dip"
+	        android:layout_marginEnd="2dip"
+	        android:layout_marginStart="2dip"
+	        android:gravity="center" >
+	
+	        <TextView android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:gravity="center"
+	            android:text="日" />
+	
+	        <TextView android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:gravity="center"
+	            android:text="一" />
+	
+	        <TextView android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:gravity="center"
+	            android:text="二" />
+	
+	        <TextView android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:gravity="center"
+	            android:text="三" />
+	
+	        <TextView android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:gravity="center"
+	            android:text="四" />
+	
+	        <TextView android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:gravity="center"
+	            android:text="五" />
+	
+	        <TextView android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:gravity="center"
+	            android:text="六" />
+	
+	    </LinearLayout>
+	
+	    <ImageView
+	        android:layout_width="match_parent"
+	        android:layout_height="1dip"
+	        android:scaleType="fitXY"
+	        android:gravity="fill_horizontal"
+	        android:src="?android:attr/dividerHorizontal" />
+	
+	    <android.support.v4.view.ViewPager
+	        android:id="@+id/pager"
+	        android:layout_width="match_parent"
+	        android:layout_height="270dp" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+        <TextView
+            android:id="@+id/text_checkin_info"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center_vertical"
+            android:hint="@string/checkin_empty"
+            android:textSize="14sp"
+            android:textColor="@color/black" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/lightGray" />
+        <TextView
+            android:id="@+id/text_checkout_info"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center_vertical"
+            android:hint="@string/checkout_empty"
+            android:textSize="14sp"
+            android:textColor="@color/black" />
+    </LinearLayout>
+</LinearLayout>

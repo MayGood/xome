@@ -1,0 +1,96 @@
+{
+  "stations": [
+    {
+      "no": 1,
+      "name": "汉口",
+      "arriveTime": "--",
+      "leaveTime": "09:27",
+      "stayMinutes": 0
+    },
+    {
+      "no": 2,
+      "name": "红安西",
+      "arriveTime": "10:00",
+      "leaveTime": "10:02",
+      "stayMinutes": 2
+    },
+    {
+      "no": 3,
+      "name": "麻城北",
+      "arriveTime": "10:18",
+      "leaveTime": "10:20",
+      "stayMinutes": 2
+    },
+    {
+      "no": 4,
+      "name": "金寨",
+      "arriveTime": "10:58",
+      "leaveTime": "11:00",
+      "stayMinutes": 2
+    },
+    {
+      "no": 5,
+      "name": "六安",
+      "arriveTime": "11:21",
+      "leaveTime": "11:24",
+      "stayMinutes": 3
+    },
+    {
+      "no": 6,
+      "name": "合肥南",
+      "arriveTime": "11:53",
+      "leaveTime": "11:58",
+      "stayMinutes": 5
+    },
+    {
+      "no": 7,
+      "name": "全椒",
+      "arriveTime": "12:38",
+      "leaveTime": "12:40",
+      "stayMinutes": 2
+    },
+    {
+      "no": 8,
+      "name": "南京南",
+      "arriveTime": "13:02",
+      "leaveTime": "13:04",
+      "stayMinutes": 2
+    },
+    {
+      "no": 9,
+      "name": "镇江南",
+      "arriveTime": "13:25",
+      "leaveTime": "13:43",
+      "stayMinutes": 18
+    },
+    {
+      "no": 10,
+      "name": "常州北",
+      "arriveTime": "14:03",
+      "leaveTime": "14:13",
+      "stayMinutes": 10
+    },
+    {
+      "no": 11,
+      "name": "无锡东",
+      "arriveTime": "14:31",
+      "leaveTime": "14:38",
+      "stayMinutes": 7
+    },
+    {
+      "no": 12,
+      "name": "苏州北",
+      "arriveTime": "14:49",
+      "leaveTime": "14:51",
+      "stayMinutes": 2
+    },
+    {
+      "no": 13,
+      "name": "上海虹桥",
+      "arriveTime": "15:17",
+      "leaveTime": "--",
+      "stayMinutes": 0
+    }
+  ],
+  "trainNo": "D3054"
+}

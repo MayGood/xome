@@ -1,0 +1,110 @@
+{
+  "stations": [
+    {
+      "no": 1,
+      "name": "石家庄",
+      "arriveTime": "--",
+      "leaveTime": "08:38",
+      "stayMinutes": 0
+    },
+    {
+      "no": 2,
+      "name": "邢台东",
+      "arriveTime": "09:05",
+      "leaveTime": "09:07",
+      "stayMinutes": 2
+    },
+    {
+      "no": 3,
+      "name": "邯郸东",
+      "arriveTime": "09:23",
+      "leaveTime": "09:25",
+      "stayMinutes": 2
+    },
+    {
+      "no": 4,
+      "name": "安阳东",
+      "arriveTime": "09:43",
+      "leaveTime": "09:45",
+      "stayMinutes": 2
+    },
+    {
+      "no": 5,
+      "name": "郑州东",
+      "arriveTime": "10:31",
+      "leaveTime": "10:51",
+      "stayMinutes": 20
+    },
+    {
+      "no": 6,
+      "name": "兰考南",
+      "arriveTime": "11:22",
+      "leaveTime": "11:24",
+      "stayMinutes": 2
+    },
+    {
+      "no": 7,
+      "name": "商丘",
+      "arriveTime": "11:48",
+      "leaveTime": "11:50",
+      "stayMinutes": 2
+    },
+    {
+      "no": 8,
+      "name": "永城北",
+      "arriveTime": "12:13",
+      "leaveTime": "12:15",
+      "stayMinutes": 2
+    },
+    {
+      "no": 9,
+      "name": "徐州东",
+      "arriveTime": "12:42",
+      "leaveTime": "12:48",
+      "stayMinutes": 6
+    },
+    {
+      "no": 10,
+      "name": "宿州东",
+      "arriveTime": "13:06",
+      "leaveTime": "13:08",
+      "stayMinutes": 2
+    },
+    {
+      "no": 11,
+      "name": "滁州",
+      "arriveTime": "13:55",
+      "leaveTime": "14:10",
+      "stayMinutes": 15
+    },
+    {
+      "no": 12,
+      "name": "南京南",
+      "arriveTime": "14:28",
+      "leaveTime": "14:30",
+      "stayMinutes": 2
+    },
+    {
+      "no": 13,
+      "name": "镇江南",
+      "arriveTime": "14:49",
+      "leaveTime": "14:51",
+      "stayMinutes": 2
+    },
+    {
+      "no": 14,
+      "name": "无锡东",
+      "arriveTime": "15:21",
+      "leaveTime": "15:23",
+      "stayMinutes": 2
+    },
+    {
+      "no": 15,
+      "name": "上海虹桥",
+      "arriveTime": "15:52",
+      "leaveTime": "--",
+      "stayMinutes": 0
+    }
+  ],
+  "trainNo": "G2811"
+}

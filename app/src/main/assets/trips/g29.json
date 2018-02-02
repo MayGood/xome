@@ -1,0 +1,26 @@
+{
+  "stations": [
+    {
+      "no": 1,
+      "name": "北京南",
+      "arriveTime": "--",
+      "leaveTime": "13:13",
+      "stayMinutes": 0
+    },
+    {
+      "no": 2,
+      "name": "济南西",
+      "arriveTime": "14:46",
+      "leaveTime": "14:48",
+      "stayMinutes": 2
+    },
+    {
+      "no": 3,
+      "name": "合肥南",
+      "arriveTime": "17:08",
+      "leaveTime": "--",
+      "stayMinutes": 0
+    }
+  ],
+  "trainNo": "G29"
+}

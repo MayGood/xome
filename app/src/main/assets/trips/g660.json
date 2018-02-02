@@ -1,0 +1,75 @@
+{
+  "stations": [
+    {
+      "no": 1,
+      "name": "西安北",
+      "arriveTime": "--",
+      "leaveTime": "11:12",
+      "stayMinutes": 0
+    },
+    {
+      "no": 2,
+      "name": "三门峡南",
+      "arriveTime": "12:10",
+      "leaveTime": "12:12",
+      "stayMinutes": 2
+    },
+    {
+      "no": 3,
+      "name": "洛阳龙门",
+      "arriveTime": "12:43",
+      "leaveTime": "12:45",
+      "stayMinutes": 2
+    },
+    {
+      "no": 4,
+      "name": "郑州东",
+      "arriveTime": "13:24",
+      "leaveTime": "13:27",
+      "stayMinutes": 2
+    },
+    {
+      "no": 5,
+      "name": "新乡东",
+      "arriveTime": "13:47",
+      "leaveTime": "13:49",
+      "stayMinutes": 2
+    },
+    {
+      "no": 6,
+      "name": "鹤壁东",
+      "arriveTime": "14:05",
+      "leaveTime": "14:07",
+      "stayMinutes": 2
+    },
+    {
+      "no": 7,
+      "name": "安阳东",
+      "arriveTime": "14:22",
+      "leaveTime": "14:24",
+      "stayMinutes": 2
+    },
+    {
+      "no": 8,
+      "name": "邯郸东",
+      "arriveTime": "14:42",
+      "leaveTime": "14:50",
+      "stayMinutes": 8
+    },
+    {
+      "no": 9,
+      "name": "石家庄",
+      "arriveTime": "15:32",
+      "leaveTime": "15:35",
+      "stayMinutes": 3
+    },
+    {
+      "no": 10,
+      "name": "北京西",
+      "arriveTime": "16:51",
+      "leaveTime": "--",
+      "stayMinutes": 0
+    }
+  ],
+  "trainNo": "G660"
+}

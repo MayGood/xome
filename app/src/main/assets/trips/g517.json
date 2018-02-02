@@ -1,0 +1,68 @@
+{
+  "stations": [
+    {
+      "no": 1,
+      "name": "北京西",
+      "arriveTime": "--",
+      "leaveTime": "12:19",
+      "stayMinutes": 0
+    },
+    {
+      "no": 2,
+      "name": "涿州东",
+      "arriveTime": "12:44",
+      "leaveTime": "12:47",
+      "stayMinutes": 3
+    },
+    {
+      "no": 3,
+      "name": "定州东",
+      "arriveTime": "13:21",
+      "leaveTime": "13:23",
+      "stayMinutes": 2
+    },
+    {
+      "no": 4,
+      "name": "石家庄",
+      "arriveTime": "13:46",
+      "leaveTime": "13:49",
+      "stayMinutes": 3
+    },
+    {
+      "no": 5,
+      "name": "邯郸东",
+      "arriveTime": "14:28",
+      "leaveTime": "14:30",
+      "stayMinutes": 2
+    },
+    {
+      "no": 6,
+      "name": "郑州东",
+      "arriveTime": "15:24",
+      "leaveTime": "15:28",
+      "stayMinutes": 4
+    },
+    {
+      "no": 7,
+      "name": "许昌东",
+      "arriveTime": "15:52",
+      "leaveTime": "15:59",
+      "stayMinutes": 7
+    },
+    {
+      "no": 8,
+      "name": "驻马店西",
+      "arriveTime": "16:28",
+      "leaveTime": "16:30",
+      "stayMinutes": 2
+    },
+    {
+      "no": 9,
+      "name": "武汉",
+      "arriveTime": "17:37",
+      "leaveTime": "--",
+      "stayMinutes": 0
+    }
+  ],
+  "trainNo": "G517"
+}

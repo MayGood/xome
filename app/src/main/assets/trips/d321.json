@@ -1,0 +1,33 @@
+{
+  "stations": [
+    {
+      "no": 1,
+      "name": "北京南",
+      "arriveTime": "--",
+      "leaveTime": "21:23",
+      "stayMinutes": 0
+    },
+    {
+      "no": 2,
+      "name": "南京",
+      "arriveTime": "06:40",
+      "leaveTime": "06:44",
+      "stayMinutes": 4
+    },
+    {
+      "no": 3,
+      "name": "苏州",
+      "arriveTime": "08:20",
+      "leaveTime": "08:22",
+      "stayMinutes": 2
+    },
+    {
+      "no": 4,
+      "name": "上海",
+      "arriveTime": "09:13",
+      "leaveTime": "--",
+      "stayMinutes": 0
+    }
+  ],
+  "trainNo": "D321"
+}

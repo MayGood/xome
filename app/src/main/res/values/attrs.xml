@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CheckableTextView">
+        <attr name="textColorTodayNormal" format="color" />
+        <attr name="textColorTodayChecked" format="color"/>
+        <attr name="backgroundChecked" format="reference|color"/>
+        <attr name="backgroundNormal" format="reference|color"/>
+        <attr name="backgroundTodayChecked" format="reference|color"/>
+    </declare-styleable>
+</resources>

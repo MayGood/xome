@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xxhx.xhw.discovery.checkin.CheckableRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <com.xxhx.xhw.discovery.checkin.CheckableTextView
+        android:id="@+id/text_date"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        app:textColorTodayNormal="@color/black"
+        app:textColorTodayChecked="@color/white"
+        app:backgroundChecked="@drawable/bg_circle_selected"
+        app:backgroundNormal="@drawable/flag_check_disc"
+        app:backgroundTodayChecked="@drawable/circle_today" />
+    <TextView
+        android:id="@+id/freeday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:text="休"
+        android:textSize="8dp"
+        android:textColor="#319a96"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/workday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:text="班"
+        android:textSize="8dp"
+        android:textColor="#ff8200"
+        android:visibility="gone" />
+
+</com.xxhx.xhw.discovery.checkin.CheckableRelativeLayout>

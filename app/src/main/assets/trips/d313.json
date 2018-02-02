@@ -1,0 +1,33 @@
+{
+  "stations": [
+    {
+      "no": 1,
+      "name": "北京南",
+      "arriveTime": "--",
+      "leaveTime": "19:34",
+      "stayMinutes": 0
+    },
+    {
+      "no": 2,
+      "name": "南京",
+      "arriveTime": "04:51",
+      "leaveTime": "04:57",
+      "stayMinutes": 6
+    },
+    {
+      "no": 3,
+      "name": "苏州",
+      "arriveTime": "06:46",
+      "leaveTime": "06:50",
+      "stayMinutes": 4
+    },
+    {
+      "no": 4,
+      "name": "上海",
+      "arriveTime": "07:41",
+      "leaveTime": "--",
+      "stayMinutes": 0
+    }
+  ],
+  "trainNo": "D313"
+}

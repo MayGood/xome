@@ -1,0 +1,54 @@
+{
+  "stations": [
+    {
+      "no": 1,
+      "name": "合肥南",
+      "arriveTime": "--",
+      "leaveTime": "17:44",
+      "stayMinutes": 0
+    },
+    {
+      "no": 2,
+      "name": "巢湖东",
+      "arriveTime": "18:06",
+      "leaveTime": "18:08",
+      "stayMinutes": 2
+    },
+    {
+      "no": 3,
+      "name": "无为",
+      "arriveTime": "18:21",
+      "leaveTime": "18:23",
+      "stayMinutes": 2
+    },
+    {
+      "no": 4,
+      "name": "铜陵北",
+      "arriveTime": "18:35",
+      "leaveTime": "18:37",
+      "stayMinutes": 2
+    },
+    {
+      "no": 5,
+      "name": "铜陵",
+      "arriveTime": "18:52",
+      "leaveTime": "18:54",
+      "stayMinutes": 2
+    },
+    {
+      "no": 6,
+      "name": "池州",
+      "arriveTime": "19:14",
+      "leaveTime": "19:16",
+      "stayMinutes": 2
+    },
+    {
+      "no": 7,
+      "name": "安庆",
+      "arriveTime": "19:35",
+      "leaveTime": "--",
+      "stayMinutes": 0
+    }
+  ],
+  "trainNo": "D5663"
+}
