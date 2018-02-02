@@ -50,7 +50,7 @@ public class DiscPresenter implements DiscContract.Presenter, View.OnClickListen
         //mDiscView.addPublicItem(sCookbookId, R.drawable.ic_cookbook, ContextHelper.getString(R.string.title_cookbook), null, 0, this);
         mDiscView.addPublicItem(sTripId, R.drawable.ic_trip, ContextHelper.getString(R.string.title_trip), null, 0, this);
         mDiscView.addPublicItem(sExerciseId, R.drawable.ic_exercise, ContextHelper.getString(R.string.title_exercise), null, 0, this);
-        //mDiscView.addPublicItem(sNoteId, R.drawable.ic_backup, ContextHelper.getString(R.string.title_note), null, 0, this);
+        mDiscView.addPublicItem(sNoteId, R.drawable.ic_module_note, ContextHelper.getString(R.string.title_note), null, 0, this);
 
         //mDiscView.addPrivateItem(sAAId, R.drawable.ic_aa, ContextHelper.getString(R.string.title_aa), null, 0, this);
         mDiscView.addPrivateItem(sCheckinId, R.drawable.ic_checkin, ContextHelper.getString(R.string.title_checkin), null, 0, this);

@@ -9,6 +9,7 @@ import android.support.v7.graphics.Palette;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import com.xxhx.xome.R;
 import com.xxhx.xome.helper.ContextHelper;
@@ -113,12 +114,14 @@ public class DiscFragment extends BaseFragment implements DiscContract.View {
     private View getView(@DrawableRes int iconResId, String title, String message, int badgeCount, ViewGroup parent) {
         View itemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item_disc, parent, false);
         ItemViewHolder holder = new ItemViewHolder();
+        holder.icon = itemView.findViewById(R.id.icon);
         holder.title = (TextView) itemView.findViewById(R.id.title);
         holder.message = (TextView) itemView.findViewById(R.id.message);
         holder.badge = (BadgeView) itemView.findViewById(R.id.badge);
         itemView.setTag(holder);
+        holder.icon.setImageResource(iconResId);
         holder.title.setText(title);
-        holder.title.setCompoundDrawablesWithIntrinsicBounds(iconResId, 0, 0, 0);
+        //holder.title.setCompoundDrawablesWithIntrinsicBounds(iconResId, 0, 0, 0);
         if(!isEmpty(message)) {
             int messageTextColor = getPopulateColor(iconResId);
             if(messageTextColor != 0) {
@@ -209,6 +212,7 @@ public class DiscFragment extends BaseFragment implements DiscContract.View {
     }
 
     class ItemViewHolder {
+        ImageView icon;
         TextView title;
         TextView message;
         BadgeView badge;
