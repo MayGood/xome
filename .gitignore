@@ -1,4 +1,5 @@
 app/src/main/java/com/xxhx/xome/App.java
+app/src/main/java/com/xxhx/xome/config/Constants.java
 *.iml
 /local.properties
 /.idea/workspace.xml
