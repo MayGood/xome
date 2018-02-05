@@ -6,6 +6,7 @@ import com.xxhx.xome.data.CheckinDao;
 import com.xxhx.xome.data.CreditBillDao;
 import com.xxhx.xome.data.DaoMaster;
 import com.xxhx.xome.data.DateMarkDao;
+import com.xxhx.xome.data.MemoDao;
 import com.xxhx.xome.data.TodoDao;
 import com.xxhx.xome.data.TripDao;
 import com.xxhx.xome.ui.disc.checkin.data.DateMark;
@@ -60,6 +61,9 @@ public class OpenDbHelper extends DaoMaster.OpenHelper {
         if (oldVersion < 13) {
             TodoDao.dropTable(db, true);
             TodoDao.createTable(db, false);
+        }
+        if (oldVersion < 14) {
+            MemoDao.createTable(db, false);
         }
     }
 

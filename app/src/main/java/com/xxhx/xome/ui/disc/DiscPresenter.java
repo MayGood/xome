@@ -10,6 +10,8 @@ import com.xxhx.xome.R;
 import com.xxhx.xome.helper.ContextHelper;
 import com.xxhx.xome.ui.activity.WebViewActivity;
 import com.xxhx.xome.ui.disc.checkin.CheckinActivity;
+import com.xxhx.xome.ui.disc.note.MemoActivity;
+import com.xxhx.xome.ui.disc.note.MemoEditActivity;
 import com.xxhx.xome.ui.disc.todos.TodosMainActivity;
 import com.xxhx.xome.ui.disc.trip.MyTripActivity;
 import com.xxhx.xome.ui.disc.wealth.MyWealthActivity;
@@ -96,6 +98,9 @@ public class DiscPresenter implements DiscContract.Presenter, View.OnClickListen
                     gotoActivity(v.getContext(), ExerciseDisplayActivity.class);
                 }
                 flag = !flag;
+                break;
+            case sNoteId:
+                gotoActivity(v.getContext(), MemoActivity.class);
                 break;
             case sCheckinId:
                 gotoActivity(v.getContext(), CheckinActivity.class);

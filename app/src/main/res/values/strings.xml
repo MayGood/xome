@@ -40,7 +40,9 @@
     <string name="title_checkin">打卡记录</string>
     <string name="title_wealth">财富</string>
     <string name="title_password">密码管理</string>
-    <string name="title_note">云笔记</string>
+    <string name="title_note">笔记本</string>
+
+    <string name="title_activity_memo">便笺</string>
 
     <string name="title_activity_my_wealth">我的财富</string>
     <string name="title_activity_wealth_account_detail">账户详情</string>
