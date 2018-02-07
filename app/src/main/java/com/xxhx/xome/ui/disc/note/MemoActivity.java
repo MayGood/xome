@@ -24,6 +24,7 @@ import com.xxhx.xome.R;
 import com.xxhx.xome.config.Action;
 import com.xxhx.xome.data.MemoDao;
 import com.xxhx.xome.ui.BaseActivity;
+import com.xxhx.xome.ui.disc.note.view.NoteTextView;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -129,10 +130,10 @@ public class MemoActivity extends BaseActivity {
             String content = memo.getContent();
             if (!TextUtils.isEmpty(content)) {
                 String[] paras = content.split("\n", 2);
-                holder.headView.setText(paras[0]);
+                holder.headView.setAlignText(paras[0]);
                 holder.headView.setVisibility(View.VISIBLE);
                 if (paras.length > 1) {
-                    holder.contentView.setText(paras[1]);
+                    holder.contentView.setAlignText(paras[1]);
                     holder.contentView.setVisibility(View.VISIBLE);
                 }
                 else {
@@ -188,8 +189,8 @@ public class MemoActivity extends BaseActivity {
 
     class ViewHolder extends RecyclerView.ViewHolder {
         ImageView pictureView;
-        TextView headView;
-        TextView contentView;
+        NoteTextView headView;
+        NoteTextView contentView;
         TextView timeView;
 
         public ViewHolder(View itemView) {

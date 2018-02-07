@@ -15,7 +15,7 @@
             android:scaleType="centerCrop"
             android:src="@color/disc"
             android:visibility="gone"/>
-        <TextView
+        <com.xxhx.xome.ui.disc.note.view.NoteTextView
             android:id="@+id/head"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -26,7 +26,7 @@
             android:textColor="#333"
             android:textStyle="bold"
             android:textSize="14sp"/>
-        <TextView
+        <com.xxhx.xome.ui.disc.note.view.NoteTextView
             android:id="@+id/content"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
