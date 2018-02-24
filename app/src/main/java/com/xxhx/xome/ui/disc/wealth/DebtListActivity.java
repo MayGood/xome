@@ -7,6 +7,8 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.EditText;
@@ -38,6 +40,22 @@ public class DebtListActivity extends BaseActivity {
         init();
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_debt_list, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_add:
+                showNewDebtDialog();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
     private void init() {
         List<Debt> debts = App.getInstance().getEncryptedDaoSession().getDebtDao().loadAll();
         mAdapter = new DebtAdapter(this, debts);
@@ -45,7 +63,8 @@ public class DebtListActivity extends BaseActivity {
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent(DebtListActivity.this, NewDebtChangeActivity.class);
+                Intent intent = new Intent(DebtListActivity.this, DebtChangeListActivity.class);
+                intent.putExtra(DebtChangeListActivity.EXTRA_DEBT_ID, id);
                 startActivity(intent);
             }
         });
@@ -56,7 +75,7 @@ public class DebtListActivity extends BaseActivity {
         return Identity.Manager;
     }
 
-    public void showNewDebtDialog(View view) {
+    private void showNewDebtDialog() {
         View contentView = LayoutInflater.from(this).inflate(R.layout.content_new_debt_dialog, null);
         final EditText creditorEditor = contentView.findViewById(R.id.creditor);
         final EditText amountEditor = contentView.findViewById(R.id.amount);
@@ -86,5 +105,10 @@ public class DebtListActivity extends BaseActivity {
                 .setNegativeButton("Cancel", null)
                 .create();
         dialog.show();
+    }
+
+    public void newDebtChange(View view) {
+        Intent intent = new Intent(this, NewDebtChangeActivity.class);
+        startActivity(intent);
     }
 }

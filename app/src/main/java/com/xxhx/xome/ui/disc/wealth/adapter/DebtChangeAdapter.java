@@ -7,19 +7,19 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
+import com.xxhx.moduleclosedatabase.debt.DebtChange;
 import com.xxhx.xome.App;
 import com.xxhx.xome.R;
-import com.xxhx.xome.ui.disc.wealth.data.Turnover;
 import java.util.Calendar;
 import java.util.List;
 
 /**
- * Created by xxhx on 2018/1/10.
+ * Created by xxhx on 2018/2/23.
  */
 
-public class DebtChangeAdapter extends ArrayAdapter<Turnover> {
+public class DebtChangeAdapter extends ArrayAdapter<DebtChange> {
 
-    public DebtChangeAdapter(Context context, List<Turnover> objects) {
+    public DebtChangeAdapter(Context context, List<DebtChange> objects) {
         super(context, 0, objects);
     }
 
@@ -31,17 +31,16 @@ public class DebtChangeAdapter extends ArrayAdapter<Turnover> {
     @NonNull
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        Turnover turnover = getItem(position);
+        DebtChange debtChange = getItem(position);
         ViewHolder holder;
         if(convertView == null) {
-            convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_item_turnover, null);
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_item_debt_change, null);
             holder = new ViewHolder();
             holder.hour = (TextView) convertView.findViewById(R.id.hour);
             holder.minute = (TextView) convertView.findViewById(R.id.minute);
             holder.date = (TextView) convertView.findViewById(R.id.date);
             holder.description = (TextView) convertView.findViewById(R.id.description);
             holder.amount = (TextView) convertView.findViewById(R.id.amount);
-            holder.type = (TextView) convertView.findViewById(R.id.type);
             convertView.setTag(holder);
         }
         else {
@@ -54,30 +53,18 @@ public class DebtChangeAdapter extends ArrayAdapter<Turnover> {
         holder.amount.setTypeface(App.getInstance().getRobotoTypeface());
 
         Calendar calendar = Calendar.getInstance();
-        calendar.setTime(turnover.getTime());
+        calendar.setTime(debtChange.getDate());
         holder.hour.setText(String.format("%02d", calendar.get(Calendar.HOUR_OF_DAY)));
         holder.minute.setText(String.format("%02d", calendar.get(Calendar.MINUTE)));
         holder.date.setText((calendar.get(Calendar.MONTH) + 1) + "/" + calendar.get(Calendar.DAY_OF_MONTH));
-        holder.description.setText(turnover.getNote());
-        holder.type.setText(turnover.getTurnoverType().getType());
-        if(turnover.getAmountInFens() >= 0) {
+        holder.description.setText(debtChange.getNotes());
+        if(debtChange.getChangeInFens() >= 0) {
             holder.amount.setTextColor(getContext().getResources().getColor(R.color.positiveWealth));
         }
         else {
             holder.amount.setTextColor(getContext().getResources().getColor(R.color.negativeWealth));
         }
-        holder.amount.setText(turnover.getFormattedAmount());
-        //view.setOnClickListener(new View.OnClickListener() {
-        //    @Override
-        //    public void onClick(View v) {
-        //        long balanceInFens = mWealthAccount.getBalanceInFens();
-        //        mWealthAccount.setBalanceInFens(balanceInFens - 923);
-        //        App.getInstance().getDaoSession().getWealthAccountDao().update(mWealthAccount);
-        //        //turnover.setTurnoverType(TurnoverType.TRANSFER);
-        //        //App.getInstance().getDaoSession().getTurnoverDao().update(turnover);
-        //        //App.getInstance().getDaoSession().getTurnoverDao().delete(turnover);
-        //    }
-        //});
+        holder.amount.setText(debtChange.getFormattedAmount());
         return convertView;
     }
 
@@ -87,6 +74,5 @@ public class DebtChangeAdapter extends ArrayAdapter<Turnover> {
         TextView date;
         TextView description;
         TextView amount;
-        TextView type;
     }
 }

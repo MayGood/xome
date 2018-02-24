@@ -57,7 +57,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:lines="1"
+        android:singleLine="true"
         android:ellipsize="middle"
         android:text="Description"
         android:textColor="#333"
@@ -75,12 +75,5 @@
             android:text="77.77"
             android:textColor="@color/positiveWealth"
             android:textSize="14sp"/>
-        <TextView
-            android:id="@+id/type"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="消费"
-            android:textColor="#666"
-            android:textSize="10sp"/>
     </LinearLayout>
 </LinearLayout>

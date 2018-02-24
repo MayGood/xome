@@ -1,9 +1,11 @@
 package com.xxhx.moduleclosedatabase.debt;
 
+import java.text.DecimalFormat;
 import java.util.Date;
 import org.greenrobot.greendao.annotation.Entity;
 import org.greenrobot.greendao.annotation.Id;
 import org.greenrobot.greendao.annotation.Generated;
+import org.greenrobot.greendao.annotation.Keep;
 
 /**
  * Created by xxhx on 2018/1/23.
@@ -30,6 +32,12 @@ public class DebtChange {
 
     @Generated(hash = 255933230)
     public DebtChange() {
+    }
+
+    @Keep
+    public String getFormattedAmount() {
+        DecimalFormat format = new DecimalFormat("#,####");
+        return String.format("%s.%02d", format.format(changeInFens / 100), Math.abs(changeInFens) % 100);
     }
 
     public Long getId() {

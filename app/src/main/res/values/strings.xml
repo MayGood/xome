@@ -89,6 +89,7 @@
     <string name="title_activity_turnover_edit">交易编辑</string>
     <string name="title_activity_debt_list">我的债务</string>
     <string name="title_activity_new_debt_change">债务变更</string>
+    <string name="title_activity_debt_change_list">债务变更记录</string>
     <string name="title_activity_my_trip">我的行程</string>
     <string name="title_activity_new_trip">添加行程</string>
     <string name="title_activity_history_trip">历史行程</string>
